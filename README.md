@@ -1,3 +1,3 @@
 # humperdinck-test-project
 
-Current version: *v1.0.9*
+Current version: *v1.0.10*
