@@ -1,0 +1,7 @@
+version: 1
+tagPattern: ^v(?<version>\d+\.\d+\.\d+)$
+versionFiles:
+  - path: README.md
+    pattern: (?<version>v?\d+\.\d+\.\d+)
+changelog:
+  path: README.md
