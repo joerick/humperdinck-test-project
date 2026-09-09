@@ -2,6 +2,36 @@
 
 Current version: *v1.0.12*
 
+## About this fixture
+
+This repository is a deliberately artificial project used to test Humperdinck's release workflow. The prose, product names, examples, and operational details are invented. Nothing here describes a real service or a real organisation.
+
+Its README is intentionally longer than a normal test fixture. That gives the settings and release screens enough surrounding Markdown to exercise scrolling, changelog positioning, contextual previews, line numbering, and collapsed regions in diffs.
+
+### What this repository tests
+
+- Discovering release configuration on a selected branch.
+- Reading the current version from ordinary Markdown text.
+- Finding a changelog marker in the middle of a long file.
+- Rendering meaningful context both before and after that marker.
+- Updating version text without disturbing nearby documentation.
+- Inserting release notes at the configured heading level.
+- Displaying large file changes in a compact review interface.
+
+### Fixture conventions
+
+The current version near the top of this document is the value Humperdinck should update during a release. The changelog immediately below this introduction contains the insertion marker. All later sections are disposable fake data and can be changed whenever a longer or more varied test document is useful.
+
+When testing manually, use an obviously fictional release note such as:
+
+```markdown
+- Exercise the long README preview.
+- Confirm context remains aligned around the marker.
+- Verify the generated diff keeps distant content collapsed.
+```
+
+The expected result is a small version change near the beginning of the file and a new changelog entry after the marker, despite the much larger body of unchanged documentation.
+
 ## Changelog
 
 <!-- humperdinck: releases order=newest-first heading=3 -->
