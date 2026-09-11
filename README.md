@@ -34,6 +34,8 @@ The expected result is a small version change near the beginning of the file and
 
 ## Changelog
 
+<!-- humperdinck: releases order=newest-first heading=2 -->
+
 ### v1.0.12
 
 - added humperdinck config

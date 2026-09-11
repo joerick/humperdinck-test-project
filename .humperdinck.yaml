@@ -2,5 +2,6 @@ version: 1
 tagPattern: v(?<version>\d.*)
 versionFiles:
   - path: README.md
+    find: "*v#*"
 changelog:
   path: README.md
